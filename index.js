@@ -14,7 +14,7 @@ const Post = require('./models/PostModel.js')
 const Booking = require('./models/BookingModel.js')
 
 const app = express()
-const bucketName = 'car-rentals-pmish'
+const bucketName = 'pmish-car-rentals'
 
 
 
@@ -23,7 +23,7 @@ app.use(cors({
     //if false, browser will not send cookies or auth info with request 
     credentials: true,
     //specifies the domains which are allowed to access the server 
-    // origin: 'https://car'
+    // origin: 'http://localhost:5173'
 
     origin: "https://main--gorgeous-yeot-dafbca.netlify.app"
 }))
