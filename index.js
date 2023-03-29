@@ -25,7 +25,7 @@ app.use(cors({
     //specifies the domains which are allowed to access the server 
     // origin: 'https://car'
 
-    origin: ["http://localhost:5173/api", "https://main--gorgeous-yeot-dafbca.netlify.app/"]
+    origin: "https://main--gorgeous-yeot-dafbca.netlify.app/"
 }))
 app.use(express.json())
 app.use(cookieParser())
