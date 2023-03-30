@@ -149,7 +149,7 @@ app.post('/api/create', async (req, res) => {
                     price,
                     features
                 })
-                console.log(createdPost)
+                res.json(createdPost)
             } catch (error) {
                 console.error(error)
             }
