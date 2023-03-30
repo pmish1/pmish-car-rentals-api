@@ -23,9 +23,9 @@ app.use(cors({
     //if false, browser will not send cookies or auth info with request 
     credentials: true,
     //specifies the domains which are allowed to access the server 
-    origin: 'http://localhost:5173'
+    // origin: 'http://localhost:5173'
 
-    // origin: "https://main--gorgeous-yeot-dafbca.netlify.app"
+    origin: "https://main--gorgeous-yeot-dafbca.netlify.app"
 }))
 app.use(express.json())
 app.use(cookieParser())
